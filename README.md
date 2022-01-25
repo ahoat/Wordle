@@ -11,3 +11,11 @@ As a user I want to:
 - Know which letters I have used
 - Play a new word everyday
 - See my statistics
+
+---
+
+Recreate the wordle rules as below
+Create a button to show or hide the rules when clicked
+
+
+<img src="rules_image.jpg" alt="Snapshot of the Wordle game rules" width=300px height=350px>
