@@ -10,6 +10,10 @@ body {
     padding: 2rem;
 }
 
+.stack-mid > * + * {
+    margin-top: 2.5rem;
+}
+
 .row {
     display: grid;
     grid-template-columns: repeat(5, 0.08fr);
