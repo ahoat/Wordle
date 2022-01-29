@@ -31,3 +31,13 @@ body {
     background-color: green;
     color: white;
 }
+
+.yellow {
+    background-color: gold;
+    color: white;
+}
+
+.wrong {
+    background-color: gray;
+    color: white;
+}
