@@ -47,14 +47,23 @@ body {
 .correct {
     background-color: green;
     color: white;
+    transition: transform 2s;
+    transform-style:flat;
+    transform: rotateX(1080deg);
 }
 
 .yellow {
     background-color: gold;
     color: white;
+    transition: transform 2s;
+    transform-style:flat;
+    transform: rotateX(1080deg);
 }
 
 .wrong {
     background-color: gray;
     color: white;
+    transition: transform 3s;
+    transform-style:flat;
+    transform: rotateX(1080deg);
 }
