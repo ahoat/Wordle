@@ -13,6 +13,7 @@ As a user I want to:
 - See my statistics
 
 ---
+## Task
 
 Recreate the wordle rules as below
 Create a button to show or hide the rules when clicked
