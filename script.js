@@ -9,7 +9,7 @@ btn.onclick = function show_hide() {
 
     } else {
         rules.style.display = 'block';
-        btn.innerText = "Close";
+        btn.innerText = "Close rules";
         
     }
     
