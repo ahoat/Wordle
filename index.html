@@ -11,57 +11,21 @@
   <header>
   </header>
   <main>
-    <button id="rules-btn" class="center">Close rules</button>
+  
     <!------------------------------Game Board------------------>
-    <section class="game">
-      <h1>WORDLE</h1>
-      <div class="board">
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-      <div class="row">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-    </div>
 
-<!---------------------Rules section------------------------>
+      <h1>WORDLE</h1>
+      <button id="rules-btn" class="center">Close rules</button>
+      <hr>
+
+    <section class="game">
+       <div id="board">
+        
+        </div>
+      
     </section>
+
+    <!---------------------Rules section------------------------>
       <div class="rules-container">
         
       <div id="rules">
@@ -73,32 +37,32 @@
         <section class="stack-mid">
           <h3>Example:</h3>
 
-          <div class="row">
-            <div class="box correct">H</div>
-            <div class="box">E</div>
-            <div class="box">L</div>
-            <div class="box">L</div>
-            <div class="box">O</div>
+          <div class="row"> 
+            <div class="tile correct">H</div>
+            <div class="tile">E</div>
+            <div class="tile">L</div>
+            <div class="tile">L</div>
+            <div class="tile">O</div>
           </div>
 
             <p>The letter <strong>H</strong> is in the word and in the correct place.</p>
 
             <div class="row">
-              <div class="box">P</div>
-              <div class="box">E</div>
-              <div class="box yellow">A</div>
-              <div class="box">C</div>
-              <div class="box">H</div>
+              <div class="tile">P</div>
+              <div class="tile">E</div>
+              <div class="tile yellow">A</div>
+              <div class="tile">C</div>
+              <div class="tile">H</div>
             </div>
   
               <p>The letter <strong>A</strong> is in the word but in the wrong place..</p>
 
               <div class="row">
-                <div class="box">A</div>
-                <div class="box">P</div>
-                <div class="box">P</div>
-                <div class="box wrong">L</div>
-                <div class="box">E</div>
+                <div class="tile">A</div>
+                <div class="tile">P</div>
+                <div class="tile">P</div>
+                <div class="tile wrong">L</div>
+                <div class="tile">E</div>
               </div>
     
                 <p>The letter <strong>L</strong> is not in the word.</p>

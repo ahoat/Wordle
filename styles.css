@@ -1,17 +1,38 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+}
 
+.center, hr {
+    display: flex;
+    align-items: flex-start;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 .game {
+    display: flex;
+    justify-content: center;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
 }
 
-.board {
+
+#board {
     position: absolute;
     z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .rules-container {
@@ -28,20 +49,17 @@ body {
 
 .row {
     display: grid;
-    grid-template-columns: repeat(5, 0.08fr);
+    grid-template-columns: repeat(5, 0.1fr);
 }
 
-.box {
-    height: 2rem;
-    width: 2rem;
-    display: flex;
-    align-items: center;
+.tile {
+    border: 2px solid lightgray;
+    width: 3rem;
+    height: 3rem;
+    margin: 2.5px;
     justify-content: center;
     font-size: 2em;
-    border: solid black 2px;
     padding: 0.1em;
-    
-    ;
 }
 
 .correct {
@@ -67,3 +85,5 @@ body {
     transform-style:flat;
     transform: rotateX(1080deg);
 }
+
+
