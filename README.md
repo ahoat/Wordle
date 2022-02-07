@@ -15,8 +15,9 @@ As a user I want to:
 ---
 ## Task
 
-Recreate the wordle rules as below
+- Recreate the wordle rules as below
 Create a button to show or hide the rules when clicked
 
-
 <img src="rules_image.jpg" alt="Snapshot of the Wordle game rules" width=300px height=350px>
+
+- Create game board to see overlaying effect of rules
